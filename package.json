@@ -1,0 +1,12 @@
+{
+  "name": "bank-app",
+  "version": "1.0.0",
+  "description": "Bank application",
+  "main": "bank.js",
+  "scripts": {
+    "start": "node bank.js"
+  },
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
