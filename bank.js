@@ -5,7 +5,7 @@ class BankApp {
         this.users = [
             { login: 'admin', name: 'Админ Админыч', pin: '0000', balance: 5000 },
             { login: 'user1', name: 'Иван Иваныч', pin: '1234', balance: 2000 },
-            { login: 'user2', name: 'Виктор Викторыч', pin: '4321', balance: 150000 }
+            { login: 'user2', name: 'Виктор Викторыч', pin: '4321', balance: 1500000 }
         ];
         this.currentUser = null;
         this.rl = readline.createInterface({
