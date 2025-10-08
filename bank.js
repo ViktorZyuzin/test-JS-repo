@@ -59,7 +59,7 @@ class BankApp {
 
     // Меню банкомата
     atmMenu() {
-        console.log(`\n=== БАНКОМАТ === (${this.currentUser.name})`);
+        console.log(`\n=== БАНКОМАТ (${this.currentUser.name}а) ===`);
         console.log('1 - Проверить баланс');
         console.log('2 - Снять деньги');
         console.log('0 - Вернуться в начало');
@@ -127,7 +127,7 @@ class BankApp {
 
     // Меню пользователя в банке
     bankUserMenu() {
-        console.log(`\n=== ЛИЧНЫЙ КАБИНЕТ === (${this.currentUser.name})`);
+        console.log(`\n=== ЛИЧНЫЙ КАБИНЕТ (${this.currentUser.name}а) ===`);
         console.log('1 - Проверить баланс');
         console.log('2 - Добавить деньги');
         console.log('3 - Снять деньги');
